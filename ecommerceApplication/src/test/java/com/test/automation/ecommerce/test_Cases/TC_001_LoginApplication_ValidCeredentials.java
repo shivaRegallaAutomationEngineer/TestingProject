@@ -1,14 +1,17 @@
 package com.test.automation.ecommerce.test_Cases;
 
+import com.test.automation.EcommerceApplication.commonFunctions.commonFunctions;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class TC_001_LoginApplication_ValidCeredentials {
-	
+	commonFunctions cf = new commonFunctions();
 	
 	@Given("^User is on Home Page$")
 	public void user_is_on_Home_Page() throws Throwable {
+		cf.selectBrowser("chrome");
 	    
 	}
 

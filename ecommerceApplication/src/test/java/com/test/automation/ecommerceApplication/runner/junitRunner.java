@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = "ecommerceProject"
+		features = "ecommerceProject",glue="com.test.automation.ecommerce.test_Cases"
 		)
 
 public class junitRunner {
